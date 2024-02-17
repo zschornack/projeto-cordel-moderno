@@ -57,9 +57,9 @@ a#link:hover {
 }
 
 main>div>p {
-    margin:0px 0px 0px 50px;
+    margin:0px 0px 0px 20px;
     width: 60vw;
-    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 10px;
 }
 
 footer {
@@ -86,7 +86,6 @@ div.imagem {
     background-color: #000000;
     background-size: cover;
     background-attachment: fixed;
-    display:inline-block
 }
 
 div#imagem1 {
@@ -99,5 +98,6 @@ div#imagem2 {
 
 div.imagem>p{
     background-color: #000000b7;
-
+    width:50%;
+    text-shadow: 5px 5px #000000;
 }
