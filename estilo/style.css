@@ -27,12 +27,60 @@ header {
 
 header > h1{
     text-align: center;
-    font-size: 10vw;
+    font-size: 8vw;
     font-family: var(--fontetitulo);
 }
+
+header>h1>span{
+    font-size: 11vw;
+}
+
 header > p {
     font: normal 20px;
     text-align: center;
     padding: 0px, 30px;
+    margin:0px;
+}
+
+header>p>a{
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:inherit;
+}
+
+a#link:hover {
+    text-decoration: underline;
+}
+
+main>div>p {
+    margin:0px 0px 0px 30px;
+}
+
+footer {
+    background-color: #000000;
+    color:#ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+main>div {
+    font-size:4vw;
+    font-family: var(--fontetexto);
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
+}
+
+div.texto {
+
+}
+
+div.imagem {
+    color: #ffffff;
+    text-shadow: 5px black;
+    background-color: #000000;
     margin:0px;
 }
