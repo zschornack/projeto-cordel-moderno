@@ -57,7 +57,9 @@ a#link:hover {
 }
 
 main>div>p {
-    margin:0px 0px 0px 30px;
+    margin:0px 0px 0px 50px;
+    width: 60vw;
+    padding: 0px 0px 0px 15px;
 }
 
 footer {
@@ -74,7 +76,7 @@ main>div {
     padding: 50px 0px 50px 0px;
 }
 
-div.texto {
+div.texto>p {
 
 }
 
@@ -82,5 +84,20 @@ div.imagem {
     color: #ffffff;
     text-shadow: 5px black;
     background-color: #000000;
-    margin:0px;
+    background-size: cover;
+    background-attachment: fixed;
+    display:inline-block
+}
+
+div#imagem1 {
+    background-image: url('imagens/background001.jpg');
+}
+
+div#imagem2 {
+    background-image: url('imagens/background002.jpg');
+}
+
+div.imagem>p{
+    background-color: #000000b7;
+
 }
